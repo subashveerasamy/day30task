@@ -35,7 +35,7 @@ const AddUser = () => {
 const handleClick=(e)=>{
     e.preventDefault();
     
-    addUser({userData})
+    addUser(userData);
     alert(`User Added Successfully!!! Id is : ${users.length+1}`);
    
     setUserData({
